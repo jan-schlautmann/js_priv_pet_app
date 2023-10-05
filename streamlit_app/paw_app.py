@@ -217,6 +217,8 @@ st.sidebar.markdown(f''' <p style="color:#f2f1ec">Animal type: {type_in} <br>
                 Age: {age_in}  <br>
                 Description length: {description_char}</p>
                 ''', unsafe_allow_html=True) 
+st.sidebar.write("")
+st.sidebar.write("[Paw Predictors on Github](https://github.com/LanaCasselmann/ds_capstone_pet_adoptability)")
 
 # st.sidebar.markdown(f""" ##### :gray[
 #                 Animal type: {type_in}  
